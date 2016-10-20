@@ -1,0 +1,5 @@
+---
+- hosts: all
+  remote_user: root
+  roles:
+    - { role: ../../packer_installer, sudo: Yes }
